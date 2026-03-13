@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-primary: #0a1628;
+  --bg-secondary: #0d2147;
+  --surface: rgba(17, 29, 54, 0.72);
+  --surface-strong: rgba(16, 26, 47, 0.9);
+  --text-primary: #e8edf5;
+  --text-muted: #8b9ab5;
+  --blue: #1b4fd8;
+  --cyan: #00c2ff;
+  --gold: #c9a84c;
+  --border: rgba(70, 118, 206, 0.35);
+  --shadow: 0 28px 70px rgba(2, 8, 22, 0.45);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: var(--text-primary);
+  background: radial-gradient(circle at 12% 15%, #163777 0%, rgba(22, 55, 119, 0) 45%),
+    radial-gradient(circle at 78% 22%, #0f2f65 0%, rgba(15, 47, 101, 0) 42%),
+    linear-gradient(165deg, var(--bg-primary), var(--bg-secondary));
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
